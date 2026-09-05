@@ -9,7 +9,63 @@ from src.pipeline import analyze
 from src.audit_database import AuditDatabase
 
 st.set_page_config(page_title="DisputeShield AI",page_icon="🛡️",layout="wide")
-st.markdown("""<style>:root{--blue:#1688ff}.stApp{background:#071426;color:#f7fbff}.ds-card{background:#10243d;border:1px solid #224363;border-radius:14px;padding:18px}.notice{border-left:4px solid #1688ff;padding:10px;background:#10243d}</style>""",unsafe_allow_html=True)
+st.markdown("""
+<style>
+:root { --blue:#1688ff; }
+.stApp { background:#071426; color:#f7fbff; }
+.ds-card { background:#10243d; border:1px solid #224363; border-radius:14px; padding:18px; }
+.notice { border-left:4px solid #1688ff; padding:10px; background:#10243d; }
+
+/* Keep headings, form labels and helper text readable on the navy background. */
+.stApp h1, .stApp h2, .stApp h3,
+.stApp label, .stApp [data-testid="stWidgetLabel"],
+.stApp [data-testid="stWidgetLabel"] p,
+.stApp [data-testid="stMarkdownContainer"] p {
+    color:#f7fbff !important;
+}
+.stApp [data-testid="stCaptionContainer"] p,
+.stApp small { color:#b9cbe0 !important; }
+
+/* Streamlit renders form controls on a light surface, so their text must be dark. */
+.stApp input,
+.stApp textarea,
+.stApp [data-baseweb="input"] input,
+.stApp [data-baseweb="textarea"] textarea,
+.stApp [data-baseweb="select"] div,
+.stApp [data-baseweb="select"] span {
+    color:#071426 !important;
+    -webkit-text-fill-color:#071426 !important;
+    background-color:#f4f7fb !important;
+    caret-color:#071426 !important;
+}
+.stApp input:focus,
+.stApp textarea:focus,
+.stApp input:-webkit-autofill,
+.stApp input:-webkit-autofill:hover,
+.stApp input:-webkit-autofill:focus {
+    color:#071426 !important;
+    -webkit-text-fill-color:#071426 !important;
+    background-color:#f4f7fb !important;
+    -webkit-box-shadow:0 0 0 1000px #f4f7fb inset !important;
+    box-shadow:0 0 0 1000px #f4f7fb inset !important;
+}
+.stApp input::placeholder,
+.stApp textarea::placeholder {
+    color:#60738a !important;
+    -webkit-text-fill-color:#60738a !important;
+    opacity:1 !important;
+}
+.stApp [data-baseweb="input"],
+.stApp [data-baseweb="input"] > div,
+.stApp [data-baseweb="textarea"],
+.stApp [data-baseweb="textarea"] > div,
+.stApp [data-baseweb="select"] > div {
+    background:#f4f7fb !important;
+}
+.stApp [data-testid="stTooltipIcon"] svg,
+.stApp [data-testid="stWidgetLabel"] svg { fill:#9fc4ea !important; color:#9fc4ea !important; }
+</style>
+""",unsafe_allow_html=True)
 db=AuditDatabase()
 PAGES=["Overview","Analyze New Case","Evidence Report","Policy Evidence","Model Evaluation","Threshold and Cost Lab","Failure Analysis","Audit Trail","About and Responsible AI"]
 with st.sidebar:
@@ -128,4 +184,3 @@ else:
 **Safeguards:** no automatic submission or customer blocking; no fabricated evidence; grounded deterministic drafts; visible contradictions; configurable escalation; auditable decisions; local-first processing; explicit human control.
 
 **Limitations:** synthetic training data does not represent production traffic; OCR quality depends on local Tesseract availability; rule-based extraction and contradiction detection will not cover every document format; the evidence score does not guarantee an outcome.""")
-
