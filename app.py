@@ -68,6 +68,24 @@ st.markdown("""
 """,unsafe_allow_html=True)
 db=AuditDatabase()
 PAGES=["Overview","Analyze New Case","Evidence Report","Policy Evidence","Model Evaluation","Threshold and Cost Lab","Failure Analysis","Audit Trail","About and Responsible AI"]
+
+def infer_evidence_type(filename):
+    """Suggest an evidence label from a descriptive upload filename."""
+    name=filename.lower().replace("-","_").replace(" ","_")
+    hints=[
+        ("order_confirmation","order_confirmation"),
+        ("delivery_proof","delivery_proof"),
+        ("tracking","tracking_information"),
+        ("customer_communication","customer_communication"),
+        ("refund_policy","refund_policy"),
+        ("refund_transaction","refund_transaction_record"),
+        ("transaction_record","transaction_records"),
+        ("subscription","subscription_terms"),
+        ("cancellation","cancellation_record"),
+        ("invoice","invoice"),
+    ]
+    return next((label for hint,label in hints if hint in name),"additional_document")
+
 with st.sidebar:
     st.title("🛡️ DisputeShield AI")
     page=st.radio("Workspace",PAGES)
@@ -107,8 +125,9 @@ elif page=="Analyze New Case":
         corrected=[]; provided=[]
         type_options=["invoice","order_confirmation","delivery_proof","tracking_information","customer_communication","refund_policy","refund_transaction_record","transaction_records","separate_fulfilment_proof","product_description","billing_delivery_information","device_session_information","subscription_terms","cancellation_record","additional_document"]
         for i,d in enumerate(p["docs"]):
-            with st.expander(d["name"],expanded=True):
-                dtype=st.selectbox("Evidence type",type_options,key=f"dt{i}"); provided.append(dtype)
+            with st.expander(d["name"],expanded=False):
+                suggested=infer_evidence_type(d["name"])
+                dtype=st.selectbox("Evidence type",type_options,index=type_options.index(suggested),key=f"dt{i}"); provided.append(dtype)
                 if d["warning"]: st.warning(d["warning"])
                 fields=st.text_area("Extracted fields (JSON; correct if needed)",json.dumps(d["fields"],indent=2),key=f"f{i}")
                 try: d["fields"]=json.loads(fields)
@@ -120,7 +139,7 @@ elif page=="Analyze New Case":
             except Exception as exc: st.error(f"Analysis could not run safely: {exc}")
     if "result" in st.session_state:
         r=st.session_state.result; st.subheader("Latest result")
-        x,y,z=st.columns(3); x.metric("Reason",r["classification"]["reason"]); y.metric("Confidence",f"{r['classification']['confidence']:.1%}"); z.metric("Evidence score",r["score"]["score"])
+        x,y,z=st.columns([2,1,1]); x.markdown(f"**Reason**\n\n### {r['classification']['reason']}"); y.metric("Confidence",f"{r['classification']['confidence']:.1%}"); z.metric("Evidence score",r["score"]["score"])
         st.write("Alternative:",r["classification"]["alternative"],"• Influential words:",", ".join(r["classification"]["features"]) or "None")
         st.warning(r["recommendation"]["recommendation"]); st.code(r["response"])
 
