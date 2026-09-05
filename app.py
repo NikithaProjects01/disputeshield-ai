@@ -141,6 +141,28 @@ st.markdown("""
     background-color:#253a52 !important;
     opacity:0.85 !important;
 }
+
+/* Keep icon-only controls such as favorite, edit and GitHub visible. */
+.stApp [data-testid="stToolbar"] button svg,
+.stApp [data-testid="stToolbar"] a svg,
+.stApp [data-testid="stHeader"] button svg,
+.stApp [data-testid^="stBaseButton-"] svg {
+    color:#ffffff !important;
+    fill:#ffffff !important;
+    stroke:#ffffff !important;
+    opacity:1 !important;
+}
+.stApp [data-testid="stToolbar"] button:hover svg,
+.stApp [data-testid="stToolbar"] button:focus svg,
+.stApp [data-testid="stToolbar"] button:active svg,
+.stApp [data-testid^="stBaseButton-"]:hover svg,
+.stApp [data-testid^="stBaseButton-"]:focus svg,
+.stApp [data-testid^="stBaseButton-"]:active svg {
+    color:#ffffff !important;
+    fill:#ffffff !important;
+    stroke:#ffffff !important;
+    opacity:1 !important;
+}
 </style>
 """,unsafe_allow_html=True)
 db=AuditDatabase()
