@@ -64,6 +64,52 @@ st.markdown("""
 }
 .stApp [data-testid="stTooltipIcon"] svg,
 .stApp [data-testid="stWidgetLabel"] svg { fill:#9fc4ea !important; color:#9fc4ea !important; }
+
+/* Keep action labels visible before clicking and in every interaction state. */
+.stApp [data-testid^="stBaseButton-"],
+.stApp [data-testid^="stBaseButton-"] p,
+.stApp [data-testid="stFormSubmitButton"] button,
+.stApp [data-testid="stFormSubmitButton"] button p,
+.stApp [data-testid="stDownloadButton"] button,
+.stApp [data-testid="stDownloadButton"] button p,
+.stApp [data-testid="stFileUploader"] button,
+.stApp [data-testid="stFileUploader"] button p {
+    color:#ffffff !important;
+    -webkit-text-fill-color:#ffffff !important;
+    background-color:#17304f !important;
+    border-color:#315779 !important;
+    opacity:1 !important;
+}
+.stApp [data-testid^="stBaseButton-"]:hover,
+.stApp [data-testid^="stBaseButton-"]:focus,
+.stApp [data-testid^="stBaseButton-"]:active,
+.stApp [data-testid="stFormSubmitButton"] button:hover,
+.stApp [data-testid="stFormSubmitButton"] button:focus,
+.stApp [data-testid="stFormSubmitButton"] button:active,
+.stApp [data-testid="stDownloadButton"] button:hover,
+.stApp [data-testid="stDownloadButton"] button:focus,
+.stApp [data-testid="stDownloadButton"] button:active,
+.stApp [data-testid="stFileUploader"] button:hover,
+.stApp [data-testid="stFileUploader"] button:focus,
+.stApp [data-testid="stFileUploader"] button:active {
+    color:#ffffff !important;
+    -webkit-text-fill-color:#ffffff !important;
+    background-color:#1688ff !important;
+    border-color:#66c7ff !important;
+}
+.stApp [data-testid^="stBaseButton-"]:disabled,
+.stApp [data-testid^="stBaseButton-"]:disabled p,
+.stApp [data-testid="stFormSubmitButton"] button:disabled,
+.stApp [data-testid="stFormSubmitButton"] button:disabled p,
+.stApp [data-testid="stDownloadButton"] button:disabled,
+.stApp [data-testid="stDownloadButton"] button:disabled p,
+.stApp [data-testid="stFileUploader"] button:disabled,
+.stApp [data-testid="stFileUploader"] button:disabled p {
+    color:#dce9f7 !important;
+    -webkit-text-fill-color:#dce9f7 !important;
+    background-color:#253a52 !important;
+    opacity:0.85 !important;
+}
 </style>
 """,unsafe_allow_html=True)
 db=AuditDatabase()
