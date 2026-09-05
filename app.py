@@ -16,6 +16,37 @@ st.markdown("""
 .ds-card { background:#10243d; border:1px solid #224363; border-radius:14px; padding:18px; }
 .notice { border-left:4px solid #1688ff; padding:10px; background:#10243d; }
 
+/* Sidebar navigation must remain readable whether it is open, focused or hovered. */
+.stApp [data-testid="stSidebar"],
+.stApp [data-testid="stSidebar"] > div,
+.stApp section[data-testid="stSidebar"] {
+    background-color:#0b1d33 !important;
+}
+.stApp [data-testid="stSidebar"] h1,
+.stApp [data-testid="stSidebar"] h2,
+.stApp [data-testid="stSidebar"] h3,
+.stApp [data-testid="stSidebar"] p,
+.stApp [data-testid="stSidebar"] label,
+.stApp [data-testid="stSidebar"] label span,
+.stApp [data-testid="stSidebar"] [role="radiogroup"] label,
+.stApp [data-testid="stSidebar"] [role="radiogroup"] label p {
+    color:#f7fbff !important;
+    -webkit-text-fill-color:#f7fbff !important;
+    opacity:1 !important;
+}
+.stApp [data-testid="stSidebar"] input[type="radio"] {
+    accent-color:#1688ff !important;
+    opacity:1 !important;
+}
+.stApp [data-testid="stSidebar"] label[data-baseweb="radio"] > div:first-child {
+    background-color:#0b1d33 !important;
+    border:2px solid #9fc4ea !important;
+    opacity:1 !important;
+}
+.stApp [data-testid="stSidebar"] label[data-baseweb="radio"]:hover > div:first-child {
+    border-color:#66c7ff !important;
+}
+
 /* Keep headings, form labels and helper text readable on the navy background. */
 .stApp h1, .stApp h2, .stApp h3,
 .stApp label, .stApp [data-testid="stWidgetLabel"],
