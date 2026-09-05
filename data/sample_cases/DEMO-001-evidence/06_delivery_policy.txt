@@ -1,0 +1,10 @@
+DELIVERY POLICY
+
+Delivery Confirmation
+An order is treated as delivered only when the carrier records a successful delivery event. The merchant retains the tracking number, delivery date and delivery status as supporting information.
+
+Delivery Investigation
+When a customer reports that an order was not received, the merchant reviews the order confirmation, tracking history and delivery confirmation before preparing a response.
+
+This is a synthetic sample merchant policy created only for the DisputeShield AI demonstration.
+

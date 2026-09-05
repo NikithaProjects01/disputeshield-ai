@@ -1,0 +1,13 @@
+SHIPMENT TRACKING RECORD
+
+Order ID: ORD-550021
+Transaction ID: TXN-778899
+Tracking Number: TRK-88442211
+Order Date: 10/08/2026
+Dispatch Date: 11/08/2026
+Delivery Date: 14/08/2026
+Delivery Status: Delivered
+Carrier Event: Package marked delivered
+
+This is synthetic evidence created only for the DisputeShield AI demonstration.
+

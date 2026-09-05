@@ -1,0 +1,14 @@
+ORDER CONFIRMATION
+
+Merchant Name: Demo Electronics Store
+Customer Name: Ananya Rao
+Order ID: ORD-550021
+Transaction ID: TXN-778899
+Order Date: 10/08/2026
+Product: Wireless keyboard
+Amount: INR 2,499.00
+Delivery Address: Demo address, Bengaluru, Karnataka
+
+The customer placed and paid for this order on 10 August 2026.
+This is synthetic evidence created only for the DisputeShield AI demonstration.
+

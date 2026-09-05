@@ -1,0 +1,15 @@
+CUSTOMER COMMUNICATION
+
+Case ID: DEMO-001
+Order ID: ORD-550021
+Transaction ID: TXN-778899
+Date: 16/08/2026
+
+Customer message:
+I cannot find the wireless keyboard and believe the parcel never arrived. Please check the delivery status.
+
+Merchant response:
+We are reviewing tracking number TRK-88442211 and will confirm the carrier information before responding to the dispute.
+
+This is synthetic evidence created only for the DisputeShield AI demonstration.
+

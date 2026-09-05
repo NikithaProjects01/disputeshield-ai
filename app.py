@@ -153,6 +153,15 @@ if page=="Overview":
 elif page=="Analyze New Case":
     st.title("Analyze new case")
     st.caption("1 Enter details → 2 Upload evidence → 3 Review extraction → 4 Run analysis")
+    evidence_readme=DATA_DIR/"sample_cases"/"DEMO-001-evidence"/"README.txt"
+    if evidence_readme.exists():
+        st.download_button(
+            "📄 Evidence README",
+            evidence_readme.read_bytes(),
+            file_name="DEMO-001-evidence-README.txt",
+            mime="text/plain",
+            help="Download the sample case details and evidence-type instructions.",
+        )
     with st.form("case"):
         a,b,c=st.columns(3)
         case_id=a.text_input("Case ID",value="CASE-001"); merchant_id=b.text_input("Merchant ID"); transaction_id=c.text_input("Transaction ID")

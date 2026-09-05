@@ -1,0 +1,14 @@
+INVOICE
+
+Merchant Name: Demo Electronics Store
+Customer Name: Ananya Rao
+Order ID: ORD-550021
+Transaction ID: TXN-778899
+Order Date: 10/08/2026
+Product: Wireless keyboard
+Quantity: 1
+Amount: INR 2,499.00
+Payment Status: Paid
+
+This is synthetic evidence created only for the DisputeShield AI demonstration.
+
