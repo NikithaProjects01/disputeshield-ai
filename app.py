@@ -163,6 +163,33 @@ st.markdown("""
     stroke:#ffffff !important;
     opacity:1 !important;
 }
+
+/* Streamlit 1.57 renders hosted toolbar actions outside .stApp. */
+[data-testid="stToolbarActionButton"],
+[data-testid="stToolbarActionButton"] button {
+    color:#ffffff !important;
+    background-color:#17304f !important;
+    border-color:#315779 !important;
+    opacity:1 !important;
+}
+[data-testid="stToolbarActionButtonIcon"],
+[data-testid="stToolbarActionButtonIcon"] span,
+[data-testid="stToolbarActionButtonIcon"] svg,
+[data-testid="stToolbarActionButtonIcon"] svg path,
+[data-testid="stToolbarActionButtonLabel"] {
+    color:#ffffff !important;
+    fill:#ffffff !important;
+    stroke:#ffffff !important;
+    -webkit-text-fill-color:#ffffff !important;
+    opacity:1 !important;
+}
+[data-testid="stToolbarActionButton"]:hover,
+[data-testid="stToolbarActionButton"] button:hover,
+[data-testid="stToolbarActionButton"] button:focus {
+    color:#ffffff !important;
+    background-color:#1688ff !important;
+    border-color:#66c7ff !important;
+}
 </style>
 """,unsafe_allow_html=True)
 db=AuditDatabase()
