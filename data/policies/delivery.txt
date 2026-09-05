@@ -1,0 +1,6 @@
+DELIVERY CONFIRMATION
+Orders are considered delivered only when the carrier records successful delivery. A tracking number and delivery timestamp should be retained.
+
+FAILED DELIVERY
+Failed or returned deliveries are not considered completed fulfilment and should be investigated before a dispute response is prepared.
+

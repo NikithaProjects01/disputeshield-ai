@@ -1,0 +1,1 @@
+case_id,transaction_id,dispute_description,ground_truth_reason,transaction_amount,missing_document,contradiction,expected_human_review,synthetic,predicted,confidence

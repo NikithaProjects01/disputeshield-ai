@@ -1,0 +1,6 @@
+[
+ {"name":"Misleading wording","description":"Refund word appears in a delivery complaint, but no refund was requested."},
+ {"name":"Near-match identifier","description":"Case TXN-10001 is supported by a document for TXN-1000I."},
+ {"name":"Delivery contradiction","description":"Merchant says delivered while carrier evidence says returned."}
+]
+

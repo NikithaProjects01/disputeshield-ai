@@ -1,0 +1,2 @@
+{"case_id":"DEMO-001","merchant_id":"MER-101","transaction_id":"TXN-778899","customer_id":"CUS-404","transaction_date":"2026-08-10","transaction_amount":2499.0,"product_description":"Wireless keyboard","dispute_description":"Customer says the parcel never arrived","customer_claim":"I did not receive this order","merchant_statement":"Carrier records show delivered","refund_status":"Not refunded"}
+

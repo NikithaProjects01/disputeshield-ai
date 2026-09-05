@@ -1,0 +1,176 @@
+{
+  "dataset": "held-out synthetic test set",
+  "cases": 240,
+  "accuracy": 1.0,
+  "classification_report": {
+    "Duplicate charge": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 26.0
+    },
+    "Incorrect transaction amount": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 33.0
+    },
+    "Other": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 33.0
+    },
+    "Product not as described": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 28.0
+    },
+    "Product not received": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 32.0
+    },
+    "Refund not processed": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 26.0
+    },
+    "Subscription cancellation dispute": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 37.0
+    },
+    "Transaction not recognized": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 25.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      26,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      26,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      37,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      25
+    ]
+  ],
+  "classes": [
+    "Duplicate charge",
+    "Incorrect transaction amount",
+    "Other",
+    "Product not as described",
+    "Product not received",
+    "Refund not processed",
+    "Subscription cancellation dispute",
+    "Transaction not recognized"
+  ],
+  "human_review_escalation_rate": 0.0,
+  "false_positives": 0,
+  "false_negatives": 116,
+  "average_chargeback_amount": 38061.16829166667,
+  "manual_review_cost": 300,
+  "estimated_cost": 4415095.521833333,
+  "missing_evidence_detection": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "method": "deterministic labels and exact document mapping"
+  },
+  "contradiction_detection": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "method": "synthetic rule-covered labels"
+  }
+}

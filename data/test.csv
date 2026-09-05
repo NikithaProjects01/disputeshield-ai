@@ -1,0 +1,241 @@
+case_id,transaction_id,dispute_description,ground_truth_reason,transaction_amount,missing_document,contradiction,expected_human_review,synthetic
+SYN-00456,TXN-948095,payment dispute needs investigation,Other,24001.94,False,False,False,True
+SYN-00191,TXN-486649,membership was cancelled but billing continued,Subscription cancellation dispute,3012.06,True,False,True,True
+SYN-00880,TXN-619344,unclear problem with this purchase. details missing,Other,7529.44,False,False,True,True
+SYN-00597,TXN-989173,unknown purchase on my statement. details missing,Transaction not recognized,49768.01,False,False,False,True
+SYN-00772,TXN-687638,return completed but money not credited,Refund not processed,25166.99,False,False,False,True
+SYN-00966,TXN-547852,amount takenis higher than agreed,Incorrect transaction amount,39923.09,True,False,True,True
+SYN-01181,TXN-832582,I never authorized this transaction,Transaction not recognized,7345.05,False,False,False,True
+SYN-01344,TXN-289170,I have another issue with this transaction,Other,70762.9,True,False,True,True
+SYN-00542,TXN-729094,invoice ttal differs from debit,Incorrect transaction amount,57602.51,False,False,False,True
+SYN-00205,TXN-398768,I never authorized this transaction,Transaction not recognized,33425.51,False,False,False,True
+SYN-00416,TXN-112884,I have another issue with this transaction,Other,391.13,True,False,True,True
+SYN-00940,TXN-619900,return completed but money not credited. please help,Refund not processed,39075.14,True,False,True,True
+SYN-00562,TXN-838857,item is different from its description,Product not as described,68379.09,False,False,False,True
+SYN-00619,TXN-223552,same transaction debited two times,Duplicate charge,43433.02,False,False,False,True
+SYN-00048,TXN-361650,payment dispute needs investigation,Other,15912.94,False,False,False,True
+SYN-01050,TXN-683879,item is different from its dscription,Product not as described,17756.21,False,False,False,True
+SYN-01471,TXN-202564,membership was cancelled but billing continued. ref tx,Subscription cancellation dispute,20588.92,False,True,True,True
+SYN-00663,TXN-187295,charged after cancelling subscription. ref tx,Subscription cancellation dispute,57421.49,True,False,True,True
+SYN-00640,TXN-623238,payment dispute needs investigation. details missing,Other,68262.48,False,False,False,True
+SYN-01241,TXN-645316,did not receive the product,Product not received,10907.62,True,False,True,True
+SYN-00398,TXN-884616,amount taken is higher than agreed,Incorrect transaction amount,16135.76,True,False,True,True
+SYN-01473,TXN-216478,order never delivered although tracking says pending,Product not received,48546.24,False,False,False,True
+SYN-01205,TXN-402467,unknown purchase on my statement,Transaction not recognized,48673.52,False,False,False,True
+SYN-00196,TXN-811875,return completed but money not credited,Refund not processed,58129.74,False,False,False,True
+SYN-01564,TXN-389874,merchant has not processed my refund,Refund not processed,70424.74,True,True,True,True
+SYN-01447,TXN-587982,membership was cancelled but billing continued. merchant disagrees,Subscription cancellation dispute,24798.76,True,True,True,True
+SYN-01110,TXN-925549,amount taken is higher than agreed. details missing,Incorrect transaction amount,40451.77,False,False,False,True
+SYN-00031,TXN-989921,renewal debit after cancellation. custmer says,Subscription cancellation dispute,69492.18,False,False,False,True
+SYN-01416,TXN-531257,I have another issue with this transaction,Other,46295.89,True,False,True,True
+SYN-00851,TXN-612997,duplicate payment appears on my card,Duplicate charge,44551.91,True,False,True,True
+SYN-01034,TXN-660333,item is different from its description. please help,Product not as described,8152.64,False,False,False,True
+SYN-01591,TXN-650705,renewal debit after cncellation. possible mix up,Subscription cancellation dispute,38921.81,False,True,True,True
+SYN-00157,TXN-952547,I do not recognize this payment,Transaction not recognized,44061.04,False,False,False,True
+SYN-00174,TXN-789275,amount taken is higher than agreed,Incorrect transaction amount,10914.35,False,False,False,True
+SYN-00553,TXN-844904,did not receive the product. urgent,Product not received,50493.23,True,False,True,True
+SYN-00269,TXN-165306,I never authorized this transaction. details missing,Transaction not recognized,55240.36,False,False,False,True
+SYN-00821,TXN-936997,unknown purchase on my statement,Transaction not recognized,26597.36,False,False,False,True
+SYN-01343,TXN-620052,membership was cancelled but billing continued. urgent,Subscription cancellation dispute,36029.19,False,True,True,True
+SYN-00774,TXN-130531,amount taken is higher han agreed. please help,Incorrect transaction amount,46275.92,True,False,True,True
+SYN-00254,TXN-589491,invoice total differs from debit,Incorrect transaction amount,74698.51,True,True,True,True
+SYN-00558,TXN-207458,charged the wrong amount,Incorrect transaction amount,61088.98,False,True,True,True
+SYN-00070,TXN-350867,invoice total differs from debit. urgent,Incorrect transaction amount,36447.34,True,False,True,True
+SYN-01506,TXN-689351,service was not as advertised,Product not as described,38816.07,False,False,False,True
+SYN-01294,TXN-766511,amount taken is higher than agreed. ref tx,Incorrect transaction amount,17310.78,False,False,False,True
+SYN-00472,TXN-597889,unclear problem with this purchase. please help,Other,40256.01,False,False,True,True
+SYN-00050,TXN-448321,item is different from its description,Product not as described,55294.76,False,True,True,True
+SYN-00618,TXN-727354,service was not as advertised. urgent,Product not as described,6468.64,False,False,False,True
+SYN-00580,TXN-211291,retun completed but money not credited,Refund not processed,69617.9,False,True,True,True
+SYN-01430,TXN-924231,charged the wrong amount. urgent,Incorrect transaction amount,58545.95,False,False,False,True
+SYN-00087,TXN-479781,membership was cancelled but billing continued. custmer says,Subscription cancellation dispute,8093.41,False,False,False,True
+SYN-01522,TXN-812321,item is different from its description. possible mix up,Product not as described,37557.16,True,False,True,True
+SYN-00815,TXN-545405,renewal debit after cancellation. details missing,Subscription cancellation dispute,17084.65,False,False,False,True
+SYN-01028,TXN-183029,refund promised but not received,Refund not processed,35222.26,False,True,True,True
+SYN-00210,TXN-196168,item is different from its description. possible mix up,Product not as described,62362.13,False,False,False,True
+SYN-01079,TXN-270753,membership was cancelled but billing continued,Subscription cancellation dispute,31385.21,False,False,False,True
+SYN-00042,TXN-377312,service was not as advertised. possible mix up,Product not as described,65883.78,False,True,True,True
+SYN-00074,TXN-890075,item is different from its description,Product not as described,26510.91,False,True,True,True
+SYN-00028,TXN-785197,refund promised but not received,Refund not processed,4251.06,False,False,False,True
+SYN-00510,TXN-139557,charged the wrong amount. ref tx,Incorrect transaction amount,28871.45,False,False,False,True
+SYN-01439,TXN-589730,charged after cancelling subscription. ref tx,Subscription cancellation dispute,48963.61,True,False,True,True
+SYN-00442,TXN-608223,service was not as advertised,Product not as described,40929.48,False,False,False,True
+SYN-00847,TXN-449636,charged after cancelling subscrition,Subscription cancellation dispute,74371.77,True,False,True,True
+SYN-00679,TXN-113228,membership was cancelled but billing continued. ref tx,Subscription cancellation dispute,28741.37,False,False,False,True
+SYN-00766,TXN-593687,invoice total differs from debit. ref tx,Incorrect transaction amount,5055.52,False,False,False,True
+SYN-00331,TXN-447362,duplicate payment appears on my card. please help,Duplicate charge,48438.71,True,False,True,True
+SYN-00595,TXN-665892,same transaction debited two times,Duplicate charge,19693.36,True,True,True,True
+SYN-00470,TXN-381607,invoice total differs from debit,Incorrect transaction amount,17122.15,True,False,True,True
+SYN-00811,TXN-297370,same transaction debited two times,Duplicate charge,35719.86,False,False,False,True
+SYN-01543,TXN-557729,charged after cancelling subscription,Subscription cancellation dispute,14683.89,False,False,False,True
+SYN-00322,TXN-868367,product quality and colour do not match,Product not as described,34669.47,False,False,False,True
+SYN-01557,TXN-864649,I never authorized this transaction. please help,Transaction not recognized,32180.11,False,False,False,True
+SYN-01097,TXN-351262,order never delivered although tracking says pending. merchant disagrees,Product not received,4079.54,False,False,False,True
+SYN-00742,TXN-725329,charged the wrong amount. possible mix up,Incorrect transaction amount,46004.29,False,False,False,True
+SYN-00432,TXN-473023,unclear problem with this purchase,Other,53394.28,False,True,True,True
+SYN-01063,TXN-792244,charged after cancelling subscription. ref tx,Subscription cancellation dispute,56987.35,True,True,True,True
+SYN-00101,TXN-219629,unknown purchase on my statement,Transaction not recognized,64656.74,False,False,False,True
+SYN-01342,TXN-889470,amount taken is higher than agreed. ref tx,Incorrect transaction amount,60618.23,True,False,True,True
+SYN-00130,TXN-659543,product quality and colour do not match,Product not as described,50641.61,True,False,True,True
+SYN-01133,TXN-232101,I do not recognize this payment. details missing,Transaction not recognized,67846.78,False,False,False,True
+SYN-00723,TXN-863873,charged twice for the same order,Duplicate charge,11867.3,True,False,True,True
+SYN-00683,TXN-218414,duplicate payment appears on my card,Duplicate charge,50068.44,False,True,True,True
+SYN-00185,TXN-332335,my parcel has not arrived. details missing,Product not received,55985.95,True,False,True,True
+SYN-00777,TXN-661916,order never delivered although tracing says pending,Product not received,23798.93,True,False,True,True
+SYN-00044,TXN-153266,refund promised but not received,Refund not processed,68130.2,False,False,False,True
+SYN-00041,TXN-785743,order never delivered although tracking says pending. ref tx,Product not received,74045.02,False,False,False,True
+SYN-01106,TXN-552945,item is different from its description,Product not as described,21102.76,True,False,True,True
+SYN-01239,TXN-875112,charged after cancelling subscription,Subscription cancellation dispute,36442.79,False,False,False,True
+SYN-00265,TXN-597643,order never delivered although tracking says pending,Product not received,2192.23,False,False,False,True
+SYN-00676,TXN-108602,refun promised but not received,Refund not processed,32993.0,True,True,True,True
+SYN-01251,TXN-544280,same transaction debited two times,Duplicate charge,29232.67,False,False,False,True
+SYN-01537,TXN-617530,did not receive the product,Product not received,4861.23,False,False,False,True
+SYN-00226,TXN-295892,product quality and colour do not match,Product not as described,25559.28,False,False,False,True
+SYN-01281,TXN-500327,did not receive the product,Product not received,19270.81,False,True,True,True
+SYN-00423,TXN-451291,charged after cancelling subscriptio. ref tx,Subscription cancellation dispute,65814.33,True,False,True,True
+SYN-01098,TXN-163577,service was not as advertised,Product not as described,8807.2,False,False,False,True
+SYN-00342,TXN-127537,invoice total differs from debit. please help,Incorrect transaction amount,30721.11,False,False,False,True
+SYN-01173,TXN-173378,unknown purchase on my staement. urgent,Transaction not recognized,49535.49,True,False,True,True
+SYN-00454,TXN-283869,amount taken is higher than agreed,Incorrect transaction amount,44253.06,False,False,False,True
+SYN-00840,TXN-439113,payment dispute needs investigation,Other,57786.83,False,False,False,True
+SYN-00917,TXN-414750,I never authorized this transaction. details missing,Transaction not recognized,11720.15,True,False,True,True
+SYN-00632,TXN-464354,unclear problem with this purchase. please help,Other,43802.93,False,False,True,True
+SYN-00094,TXN-355123,amount taken is higher than agreed,Incorrect transaction amount,30448.61,True,False,True,True
+SYN-01304,TXN-160289,unclear problem with this purchase,Other,63656.56,False,False,True,True
+SYN-00696,TXN-754280,I have another issue with this transacion. urgent,Other,36844.73,False,False,False,True
+SYN-01512,TXN-310083,I have another issue with this transaction. possible mix up,Other,52531.92,True,False,True,True
+SYN-00995,TXN-534631,same transaction debited two times. urgent,Duplicate charge,15059.24,False,False,False,True
+SYN-00550,TXN-386886,invoice total differs from debit,Incorrect transaction amount,57225.39,False,False,False,True
+SYN-00112,TXN-382602,unclear problem with this purchase,Other,50486.33,False,False,True,True
+SYN-00534,TXN-454733,amount taken is higher than agreed,Incorrect transaction amount,50304.03,False,False,False,True
+SYN-00817,TXN-604923,did not receive the product,Product not received,8663.81,False,False,False,True
+SYN-01504,TXN-383298,unclear problem with this purchase. possible mix up,Other,6531.58,False,False,True,True
+SYN-00906,TXN-602248,service was not as advertised. details missing,Product not as described,8600.32,False,False,False,True
+SYN-00802,TXN-977394,service was not as advertised,Product not as described,53450.49,False,False,False,True
+SYN-00843,TXN-371577,charged twice for the same order. possible mix up,Duplicate charge,33229.75,False,True,True,True
+SYN-01582,TXN-255607,invoice total differs from debit,Incorrect transaction amount,37975.45,True,False,True,True
+SYN-01383,TXN-258898,charged after cancelling subscription. possible mix up,Subscription cancellation dispute,21900.22,False,False,False,True
+SYN-00536,TXN-157216,unclear problem with this purchase,Other,74086.8,False,False,True,True
+SYN-00662,TXN-208013,charged the wrong amount,Incorrect transaction amount,12684.07,False,True,True,True
+SYN-01152,TXN-887623,payment dispute needs investigation,Other,66205.05,True,False,True,True
+SYN-00125,TXN-501574,I never authorized this transaction,Transaction not recognized,18061.89,False,False,False,True
+SYN-00838,TXN-693566,charged the wrong amont,Incorrect transaction amount,67512.21,True,False,True,True
+SYN-00441,TXN-941134,order never delivered although tracking says pending,Product not received,18835.5,False,False,False,True
+SYN-01040,TXN-571351,I have another issue with this transaction. urgent,Other,1667.18,False,False,False,True
+SYN-00549,TXN-735605,I do not recognize this payment,Transaction not recognized,49382.29,False,True,True,True
+SYN-00596,TXN-998801,merchant has not processed my refund,Refund not processed,44301.73,False,False,False,True
+SYN-00060,TXN-400850,return completed but money not credited,Refund not processed,229.36,True,False,True,True
+SYN-01533,TXN-171253,unknown purchase on my statement. possible mix up,Transaction not recognized,52804.55,False,False,False,True
+SYN-01408,TXN-806682,I have another issue with this transaction. ref tx,Other,59442.65,False,False,False,True
+SYN-00844,TXN-256085,refund promised but not received. please help,Refund not processed,67259.02,True,False,True,True
+SYN-01231,TXN-379005,charged after cancelling subscription. details missing,Subscription cancellation dispute,910.1,False,False,False,True
+SYN-01002,TXN-360380,product quality and colour do not match. possible mix up,Product not as described,46402.1,True,False,True,True
+SYN-00991,TXN-575279,renewal debit after cancellation. please help,Subscription cancellation dispute,55386.09,False,False,False,True
+SYN-00263,TXN-634473,charged after cancelling subscription,Subscription cancellation dispute,38146.67,False,False,False,True
+SYN-01444,TXN-529715,return completed but money not credited,Refund not processed,19128.41,False,False,False,True
+SYN-00816,TXN-672696,unclear problem with this purchase. ref tx,Other,30930.08,True,False,True,True
+SYN-01428,TXN-182598,merchant has not processed my refund. possible mix up,Refund not processed,69060.38,True,False,True,True
+SYN-00712,TXN-414985,payment dispute needs investigation,Other,44722.89,False,False,False,True
+SYN-00233,TXN-488984,order never delivered although tracking says pending,Product not received,33853.66,True,True,True,True
+SYN-01353,TXN-820126,order never delivered although tracking says pending,Product not received,51394.11,True,False,True,True
+SYN-00654,TXN-687569,invoice total differs from debit,Incorrect transaction amount,27199.32,False,False,False,True
+SYN-00952,TXN-673172,I have another issue with this transaction. ref tx,Other,64503.35,True,False,True,True
+SYN-00361,TXN-606384,my parcel has not arrived. custmer says,Product not received,15672.88,True,False,True,True
+SYN-00238,TXN-265156,invoice total differs from debit,Incorrect transaction amount,22636.06,False,False,False,True
+SYN-00871,TXN-338846,renewal debit after cancellation. urgent,Subscription cancellation dispute,8437.05,False,False,False,True
+SYN-01357,TXN-845859,unknown purchase on my statement. please help,Transaction not recognized,20051.26,False,False,False,True
+SYN-00507,TXN-250181,charged twice for the same order. urgent,Duplicate charge,74001.35,False,False,False,True
+SYN-00667,TXN-770864,same transaction debited two times. details missing,Duplicate charge,32735.74,False,False,False,True
+SYN-00916,TXN-975126,refund promised but not received. possible mix up,Refund not processed,62003.2,False,True,True,True
+SYN-00860,TXN-559969,merchant has not processed my refund. merchant disagrees,Refund not processed,41594.45,False,False,False,True
+SYN-00589,TXN-609462,unknown purchase on my statement. custmer says,Transaction not recognized,14672.89,True,True,True,True
+SYN-00231,TXN-132653,charged after cancelling subscription,Subscription cancellation dispute,12166.17,False,False,False,True
+SYN-00449,TXN-120896,order never delivered although tracking says pending,Product not received,45203.98,True,True,True,True
+SYN-00198,TXN-711046,invoice total differs from debit,Incorrect transaction amount,25134.81,False,False,False,True
+SYN-00606,TXN-855242,charged the wrong amount. details missing,Incorrect transaction amount,60875.52,True,False,True,True
+SYN-00986,TXN-999308,product quality and colour do not match. custmer says,Product not as described,65047.95,False,True,True,True
+SYN-01113,TXN-879243,did not receive the product,Product not received,899.38,False,False,False,True
+SYN-00732,TXN-755602,return completed but money not credited. ref tx,Refund not processed,26522.45,True,False,True,True
+SYN-01225,TXN-884639,my parcel has not arrived,Product not received,56204.76,True,True,True,True
+SYN-00804,TXN-776320,refund promised but not received,Refund not processed,24689.46,False,False,False,True
+SYN-01291,TXN-232506,duplicate payment appears on my card,Duplicate charge,11829.9,True,False,True,True
+SYN-01004,TXN-199907,merchant has not processed my refund,Refund not processed,19364.93,False,False,False,True
+SYN-00994,TXN-601602,service was not as advertised,Product not as described,24090.37,False,False,False,True
+SYN-01369,TXN-902598,my prcel has not arrived,Product not received,31353.23,True,False,True,True
+SYN-00599,TXN-898461,renewal debit after cancellation,Subscription cancellation dispute,3222.44,False,False,False,True
+SYN-00475,TXN-816308,duplicate payment appears on my card. urgent,Duplicate charge,31867.87,False,True,True,True
+SYN-00615,TXN-912510,charged after cancelling subscription. custmer says,Subscription cancellation dispute,67293.17,False,False,False,True
+SYN-00369,TXN-411893,did not receive the product. merchant disagrees,Product not received,53007.64,False,False,False,True
+SYN-01346,TXN-243960,item is different from its description. urgent,Product not as described,54377.88,False,False,False,True
+SYN-01087,TXN-753880,membership was cancelled but billing continued,Subscription cancellation dispute,46932.45,False,True,True,True
+SYN-00992,TXN-103225,unclear problem with this purchase. please help,Other,48153.83,True,False,True,True
+SYN-00715,TXN-692354,charged twice for the same order,Duplicate charge,24084.2,True,False,True,True
+SYN-01307,TXN-413823,charged twice for the sameorder,Duplicate charge,29772.24,False,False,False,True
+SYN-00481,TXN-447596,my parcel has not arrived. ref tx,Product not received,3099.97,False,False,False,True
+SYN-01196,TXN-954678,refund promised but not received. custmer says,Refund not processed,5137.08,False,False,False,True
+SYN-01293,TXN-591431,I do not recognize this payment,Transaction not recognized,26678.66,False,False,False,True
+SYN-00779,TXN-735111,duplicate payment appears on my card,Duplicate charge,12613.68,False,False,False,True
+SYN-01257,TXN-155119,order never delivered although tracking says pending. custmer says,Product not received,52590.17,False,False,False,True
+SYN-00539,TXN-224473,charged twice for the same order. ref tx,Duplicate charge,33640.14,False,False,False,True
+SYN-01589,TXN-108161,I do not recognize this payment,Transaction not recognized,11587.93,False,False,False,True
+SYN-00857,TXN-166175,did not eceive the product. details missing,Product not received,46248.63,True,False,True,True
+SYN-00080,TXN-335113,payment dispute needs investigation. please help,Other,71403.54,False,True,True,True
+SYN-00365,TXN-306909,unknown purchase on my statement,Transaction not recognized,55356.39,False,False,False,True
+SYN-01455,TXN-576663,charged after cancelling subscription,Subscription cancellation dispute,52294.68,False,False,False,True
+SYN-00428,TXN-433507,refund promised but not received. possible mix up,Refund not processed,55204.13,False,False,False,True
+SYN-01252,TXN-719473,merchant has not processed my refund,Refund not processed,49847.62,False,True,True,True
+SYN-01143,TXN-902719,charged after cancelling subscription,Subscription cancellation dispute,47423.46,True,False,True,True
+SYN-01005,TXN-803375,I never authorized this transaction. merchant disagrees,Transaction not recognized,45556.42,False,False,False,True
+SYN-00138,TXN-499889,product quality and colour do not match,Product not as described,8176.77,False,False,False,True
+SYN-00890,TXN-574386,item is different from its description. merchant disagrees,Product not as described,28085.84,False,True,True,True
+SYN-00007,TXN-498591,charged after cancelling subscription. urgent,Subscription cancellation dispute,65012.84,False,False,False,True
+SYN-00439,TXN-743937,charged after cancelling subscription,Subscription cancellation dispute,11316.78,True,False,True,True
+SYN-01535,TXN-375831,membership was cancelled but billing continued,Subscription cancellation dispute,70282.07,False,False,False,True
+SYN-01482,TXN-369840,item is different from its description. possible mix up,Product not as described,74236.52,False,False,False,True
+SYN-01058,TXN-106907,product quality and colour do not match,Product not as described,57737.37,True,False,True,True
+SYN-00182,TXN-428267,invoice total differs from debit. possible mix up,Incorrect transaction amount,6023.2,False,False,False,True
+SYN-01301,TXN-497509,I do not recognize this payment. merchant disagrees,Transaction not recognized,31819.05,False,False,False,True
+SYN-00407,TXN-663772,renewal debit after cancellation,Subscription cancellation dispute,48111.83,False,False,False,True
+SYN-00270,TXN-281594,amount taken is higher than agreed. urgent,Incorrect transaction amount,28385.87,False,False,False,True
+SYN-00579,TXN-106185,duplicate payment appears on my card,Duplicate charge,9048.39,True,False,True,True
+SYN-01018,TXN-971051,product quality and colour do not match,Product not as described,6262.61,False,True,True,True
+SYN-01503,TXN-522515,renewal debit after cancellation,Subscription cancellation dispute,29570.31,True,False,True,True
+SYN-00384,TXN-809083,unclear problem with this purchase,Other,57157.99,False,False,True,True
+SYN-00993,TXN-904894,order never delivered although tracking says pending. merchant disagrees,Product not received,38823.69,True,True,True,True
+SYN-00311,TXN-944917,charged after cancelling subscription,Subscription cancellation dispute,53126.45,False,False,False,True
+SYN-00963,TXN-274721,duplicate payment appears on my card. custmer says,Duplicate charge,50120.26,False,False,False,True
+SYN-00544,TXN-211486,payment dispute needs investigation,Other,28166.37,False,False,False,True
+SYN-00401,TXN-128127,did not receive the product. details missing,Product not received,70607.63,False,False,False,True
+SYN-01380,TXN-108890,refund promised but not received,Refund not processed,70774.43,True,False,True,True
+SYN-00451,TXN-482614,duplicate payment appears on my card. urgent,Duplicate charge,63516.62,False,False,False,True
+SYN-00771,TXN-223654,charged twice for the same order,Duplicate charge,46984.09,True,True,True,True
+SYN-01201,TXN-838857,order never delivered although tracking says pending. details missing,Product not received,37855.32,False,False,False,True
+SYN-00281,TXN-976822,my parcel has not arrived,Product not received,68988.6,False,True,True,True
+SYN-00504,TXN-489737,unclear problem with this purchase. merchant disagrees,Other,66535.78,False,False,True,True
+SYN-00017,TXN-857168,order never delivered although tracking says pending,Product not received,441.75,True,True,True,True
+SYN-01285,TXN-817204,unknown purchase on my statement,Transaction not recognized,39953.5,True,False,True,True
+SYN-01300,TXN-648946,return completed but money notcredited,Refund not processed,66168.29,False,False,False,True
+SYN-00073,TXN-829308,order never delivered although tracking says pending,Product not received,43888.72,False,False,False,True
+SYN-01283,TXN-849149,charged twice for the sam order,Duplicate charge,48488.37,True,False,True,True
+SYN-01354,TXN-395503,servicewas not as advertised,Product not as described,71743.65,False,False,False,True
+SYN-01144,TXN-282750,payment dispute needs investigation. please help,Other,19796.78,True,False,True,True
+SYN-00390,TXN-977345,invoice total differs from debit,Incorrect transaction amount,47037.85,False,True,True,True
+SYN-00651,TXN-623866,duplicate payment appears on my card. possible mix up,Duplicate charge,13409.4,True,False,True,True
+SYN-01068,TXN-860321,return completed but money not credited,Refund not processed,25219.41,True,True,True,True
+SYN-01445,TXN-220219,unknown purchase on my statement,Transaction not recognized,29992.74,False,False,False,True
+SYN-00206,TXN-975679,amount taken is higher than agreed,Incorrect transaction amount,58870.68,True,False,True,True
+SYN-00888,TXN-780566,I have another issue with this transaction,Other,40564.15,True,False,True,True
+SYN-00079,TXN-972335,membership was cancelled but billing continued. ref tx,Subscription cancellation dispute,56450.09,False,False,False,True
+SYN-00645,TXN-512842,I never authorized this transaction. details missing,Transaction not recognized,37784.65,False,False,False,True
+SYN-01409,TXN-769952,order never delivered althoughtracking says pending. custmer says,Product not received,47644.75,False,False,False,True
+SYN-01448,TXN-652874,unclear problem with this purchase,Other,45214.38,False,False,True,True
+SYN-00152,TXN-878325,payment dispute needs investigation,Other,31550.1,False,False,False,True
+SYN-01592,TXN-250152,unclear problem with this purchase,Other,56845.81,True,False,True,True
+SYN-01377,TXN-451767,did not receive the product,Product not received,58453.81,True,False,True,True
+SYN-01051,TXN-627935,charged twice for the same order,Duplicate charge,13267.84,True,False,True,True
+SYN-01507,TXN-758756,same transaction debited two times,Duplicate charge,11776.36,False,False,False,True
+SYN-01292,TXN-841870,refund promised but not received,Refund not processed,73092.56,True,False,True,True
+SYN-00929,TXN-726680,my parcel has not arrived,Product not received,61314.31,True,False,True,True
+SYN-00566,TXN-755744,invoice total differs from debit,Incorrect transaction amount,4003.04,True,False,True,True
+SYN-00687,TXN-432125,charged after cancelling subscription,Subscription cancellation dispute,36690.14,False,True,True,True
+SYN-01039,TXN-542372,renewal debit after cancellation,Subscription cancellation dispute,11281.94,True,False,True,True

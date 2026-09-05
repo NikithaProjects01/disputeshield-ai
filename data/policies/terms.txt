@@ -1,0 +1,3 @@
+PAYMENT RECORDS
+The merchant retains order, invoice and payment references to reconcile the charged amount with the purchased goods or services.
+
